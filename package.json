@@ -1,0 +1,21 @@
+{
+  "name": "med-servicenow-bridge",
+  "version": "0.2.0",
+  "description": "Turns MED notification emails into ServiceNow cases and sends approved responses from Gmail",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "auth": "node scripts/get-refresh-token.js",
+    "watch": "node scripts/start-watch.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.14.0",
+    "googleapis": "^144.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,9 @@
+.env
+env.yaml
+node_modules/
+test/
+scripts/
+servicenow/
+deploy/
+*.md
+.git/
